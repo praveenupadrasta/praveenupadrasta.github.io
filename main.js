@@ -1213,7 +1213,7 @@ var HttpProvider = /** @class */ (function () {
     function HttpProvider(http) {
         this.http = http;
         this.headers = new _angular_common_http__WEBPACK_IMPORTED_MODULE_1__["HttpHeaders"]();
-        this.url = "http://sravanupadrasta.pythonanywhere.com/api/";
+        this.url = "https://sravanupadrasta.pythonanywhere.com/api/";
         this.headers = new _angular_common_http__WEBPACK_IMPORTED_MODULE_1__["HttpHeaders"]({ 'Content-type': 'application/json' });
         this.token = null;
     }
